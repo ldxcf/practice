@@ -17,7 +17,7 @@ public class LambdaApp {
 		new Thread(()->System.out.println("lambda")).start(); //匿名函数
 	}
 	public void sort(){ //更多的用于集合
-		List<Integer> list = new ArrayList();
+		List<Integer> list = new ArrayList<Integer>();
 		list.add(1);
 		list.add(3);
 		list.add(2);
